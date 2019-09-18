@@ -5,7 +5,7 @@
 ## Estado del código
 [![Build Status](https://travis-ci.org/Buyen3/iwvg-ecosystem-ying-bao.svg?branch=develop)](https://travis-ci.org/Buyen3/iwvg-ecosystem-ying-bao)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aiwvg-ecosystem-ying-bao&metric=alert_status)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Aiwvg-ecosystem-ying-bao)
-
+[![BCH compliance](https://bettercodehub.com/edge/badge/Buyen3/iwvg-ecosystem-ying-bao?branch=develop)](https://bettercodehub.com/)
 ## Ecosistema
 * Java
 * Maven

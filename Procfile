@@ -1,0 +1,1 @@
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/iwvg-ecosystem-ying-bao-1.0.0-SNAPSHOT.jar
