@@ -5,22 +5,22 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class UserTest {
+ class UserTest {
     private User user;
 
     @BeforeEach
     void before() {
-        user = new User(24, "ying", "bao");
+        user = new User(24, "Ying", "Bao");
     }
 
     @Test
     void testFullName() {
-        assertEquals("ying bao", user.fullName());
+        assertEquals("Ying Bao", user.fullName());
     }
 
     @Test
     void testInitials() {
-        assertEquals("y.", user.initials());
+        assertEquals("Y.", user.initials());
     }
 
     @Test
@@ -30,11 +30,11 @@ public class UserTest {
 
     @Test
     void testGetName(){
-        assertEquals("ying",user.getName());
+        assertEquals("Ying",user.getName());
     }
 
     @Test
     void testGetFamilyName(){
-        assertEquals("bao",user.getFamilyName());
+        assertEquals("Bao",user.getFamilyName());
     }
 }
