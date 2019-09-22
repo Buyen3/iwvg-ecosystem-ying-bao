@@ -52,6 +52,12 @@ public class Point {
 
     public int getZ() { return this.z; }
 
+    public void setX(int x) { this.x = x; }
+
+    public void setY(int y) { this.y = y; }
+
+    public void setZ(int z) { this.z = z; }
+
     @Override
     public String toString() {
         return "Point{" +
