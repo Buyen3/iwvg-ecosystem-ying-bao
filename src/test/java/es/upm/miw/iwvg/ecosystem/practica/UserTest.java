@@ -37,4 +37,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
     void testGetFamilyName(){
         assertEquals("Bao",user.getFamilyName());
     }
+
+    @Test
+    void testNameUpperCase() { assertEquals("YING", user.nameUpperCase());}
 }
