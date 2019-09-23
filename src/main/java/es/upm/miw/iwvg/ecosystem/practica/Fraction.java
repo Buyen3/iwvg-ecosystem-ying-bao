@@ -60,4 +60,8 @@ public class Fraction {
         return denominator;
     }
 
+    public boolean isEquivalent(int numerator, int denominator){
+        return this.numerator*denominator == this.denominator*numerator;
+    }
+
 }
