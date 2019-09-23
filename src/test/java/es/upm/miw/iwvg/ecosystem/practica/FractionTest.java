@@ -79,11 +79,4 @@ public class FractionTest {
         assertEquals(4,f.getNumerator());
         assertEquals(9,f.getDenominator());
     }
-
-    @Test
-    void  testDiv(){
-        Fraction f = fraction.div(new Fraction(1,3));
-        assertEquals(6,f.getNumerator());
-        assertEquals(3,f.getDenominator());
-    }
 }

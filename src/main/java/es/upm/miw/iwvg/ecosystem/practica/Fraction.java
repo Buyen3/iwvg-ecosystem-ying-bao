@@ -74,9 +74,7 @@ public class Fraction {
     public Fraction mul(Fraction fraction){
         return new Fraction(this.getNumerator()*fraction.getNumerator(),this.getDenominator()*fraction.getDenominator());
     }
-    public Fraction div(Fraction fraction){
-        return  new Fraction(this.getNumerator()*fraction.getDenominator(),this.getDenominator()*fraction.getNumerator());
-    }
+
     public int get_gcd(int a,int b){
         int max,min;
         max = (a > b ) ? a : b;
