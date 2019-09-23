@@ -40,4 +40,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
     @Test
     void testNameUpperCase() { assertEquals("YING", user.nameUpperCase());}
+     @Test
+     void testNameReverse(){
+         assertEquals("Bao Ying", user.nameReverse());
+     }
 }
