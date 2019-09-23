@@ -32,14 +32,21 @@ public class Fraction {
 
     private int denominator;
 
+    private  boolean isPropia;
+
     public Fraction(int numerator, int denominator) {
         this.numerator = numerator;
         this.denominator = denominator;
+        this.isPropia = numerator < denominator;
     }
 
     public Fraction() {
         this(1, 1);
     }
+
+    public boolean isPropia() { return isPropia; }
+
+    public boolean isImpropia() { return  !isPropia; }
 
     public double decimal() {
         return (double) numerator / denominator;

@@ -40,4 +40,17 @@ public class FractionTest {
     void testGetDenominator(){
         assertEquals(3, fraction.getDenominator());
     }
+    @Test
+    void  testIsPropia(){
+        assertEquals(true,fraction.isPropia());
+        fraction = new Fraction();
+        assertEquals(false,fraction.isPropia());
+    }
+
+    @Test
+    void  testIsImpropia(){
+        assertEquals(false,fraction.isImpropia());
+        fraction = new Fraction();
+        assertEquals(true,fraction.isImpropia());
+    }
 }
